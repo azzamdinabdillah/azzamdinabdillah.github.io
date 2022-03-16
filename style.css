@@ -1,0 +1,166 @@
+*{
+     font-family: 'Poppins', sans-serif;
+      }
+      .navbar{
+        background-color: transparent;
+        border-bottom: 1px solid white;
+      }
+
+      .navbar a{
+        color: white;
+      }
+
+      .navbar a:hover{
+        color: #ECECEC;
+      }
+
+      .header{
+        /*background-image: url(img-umum/header-3.jpg);*/
+        background-image: url(img-umum/header-4.jpg) ;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
+
+      .gas{
+        margin-left: 300px;
+      }
+
+      .header-text h1{
+        font-size: 80px;
+        margin-top: 100px;
+        color: white;
+      }
+
+
+.main{
+  background: #17141D;
+  padding: 86px;
+  overflow: hidden;
+}
+
+.text-1{
+  /*margin-top: 100px;*/
+  border: 1px solid white;
+  background-color: white;
+  /*padding: 50px;*/
+  border-radius: 30px;
+  /*width: 100%;*/
+  height: 400px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border: none;
+}
+
+.kelompok-1{
+  /*padding-bottom: -200px;*/
+  position: relative;
+  bottom: 250px;
+  left: 80px;
+}
+
+.tulisan-1{
+  /*width: 50%;*/
+  padding: 70px;
+}
+
+.text-1:hover{
+  /*background-color: skyblue;*/
+}
+
+.wayang{
+  position: absolute;
+  width: 300px;
+  opacity: 0.5;
+  top: 1400px;
+  left: 10px;
+  z-index: 1;
+  transform: rotate(-43.83deg);
+}
+
+.paragraf-1{
+  padding-top: 26px;
+  /*text-align: center;*/
+  /*width: 100%;*/
+  /*padding-left: 30px;*/
+}
+
+.foto-1{
+  /*margin-top: 200px;*/
+  width: 450px !important;
+  /*border-radius: 0 30px 30px 0;*/
+  border-radius: 30px;
+  /*left: 20px;*/
+  right: 50px;
+  top: 420px;
+  position: relative;
+  z-index: 2;
+}
+
+.lingkaran-1{
+  position: relative;
+  bottom: 70px;
+  /*width: 100%;*/
+}
+
+
+.foto-2{
+  margin-top: 145px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.text-2{
+  margin-top: 100px;
+  /*left: 85px;*/
+  right: 30px;
+  top: 20px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 50px;
+  border-radius: 0 30px 30px 0;
+  height: 320px;
+  z-index: 1;
+  position: relative;
+}
+
+.foto-3{
+  margin-top: 100px;
+  width: 800px;
+  border: 1px solid white;
+  padding: 80px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.wayang-2{
+  position: absolute;
+  width: 300px;
+  opacity: 0.5;
+  top: 2200px;
+  left: 100px;
+  z-index: 1;
+  transform: rotate(-43.83deg);
+}
+
+.wayang-0{
+  position: absolute;
+  width: 300px;
+  opacity: 0.5;
+  top: 650px;
+  left: 100px;
+  z-index: 1;
+  transform: rotate(10.83deg);
+}
+
+
+.main-2{
+  background: #17141D;
+  margin-top: -600px;
+}
